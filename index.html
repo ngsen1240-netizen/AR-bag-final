@@ -18,9 +18,18 @@
         src="tui_premium.glb" 
         ios-src="tui_premium.usdz"
         alt="Túi da cao cấp"
-        shadow-intensity="1" 
+        
+        /* HACK SÁNG VÀ MÀU SẮC TẠI ĐÂY */
+        exposure="1.8" 
+        environment-image="neutral"
+        tone-mapping="neutral"
+        shadow-intensity="1"
+        shadow-softness="1"
+        
+        /* TỐI ƯU TRẢI NGHIỆM */
         camera-controls 
         auto-rotate 
+        loading="eager"
         ar 
         ar-modes="webxr scene-viewer quick-look">
         
